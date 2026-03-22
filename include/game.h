@@ -1,12 +1,7 @@
 #ifndef GAME_H
 #define GAME_H
 
-/* ============================================================
- * game.h - Structures de données et constantes du jeu
- * Super Bulles - Projet Informatique ING1 ECE Paris 2025-2026
- * ============================================================ */
 
-/* --- Constantes globales --- */
 #define WIN_W           1024
 #define WIN_H           768
 #define GAME_ZONE_H     680   /* hauteur de la zone de jeu */
@@ -54,7 +49,7 @@ typedef enum {
     WEAPON_BOMB       /* explosion */
 } WeaponType;
 
-/* --- Taille des bulles --- */
+/*  Taille des bulles */
 typedef enum {
     BUBBLE_BIG    = 0,
     BUBBLE_MEDIUM = 1,
