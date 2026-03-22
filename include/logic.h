@@ -1,10 +1,6 @@
 #ifndef LOGIC_H
 #define LOGIC_H
 
-/* ============================================================
- * logic.h - Interface de la couche logique métier
- * Aucune dépendance à Allegro dans ce module.
- * ============================================================ */
 
 #include "game.h"
 
