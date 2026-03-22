@@ -1,14 +1,9 @@
 #ifndef IHM_H
 #define IHM_H
 
-/* ============================================================
- * ihm.h - Interface de gestion des entrées utilisateur
- * Séparée de la logique métier et du rendu.
- * ============================================================ */
-
 #include "game.h"
 
-/* --- Structure d'état des entrées --- */
+
 typedef struct {
     int move_left;
     int move_right;
